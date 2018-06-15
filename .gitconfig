@@ -1,0 +1,15 @@
+[core]
+	excludesfile = /home/maras/.gitignore
+	editor = vim
+[alias]
+	co = checkout
+	br = branch
+	cp = cherry-pick
+	st = status
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	ci = commit
+[user]
+	name = Marek Zdonek
+	email = marek.zdonek@aeolusdev.com
+[fetch]
+	prune = true
